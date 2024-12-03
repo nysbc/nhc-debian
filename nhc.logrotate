@@ -1,0 +1,7 @@
+# Log rotation configuration for LBNL NHC
+
+/var/log/nhc.log {
+	missingok
+	notifempty
+	weekly
+}
